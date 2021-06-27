@@ -19,7 +19,6 @@ jobs:
       - name: Build
         run: |
           hugo --gc --minify
-          cp public/
           touch public/.nojekyll
 
       - name: Deploy
