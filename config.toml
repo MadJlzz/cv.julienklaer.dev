@@ -3,7 +3,6 @@ baseURL = "https://cv.julienklaer.dev/"
 languageCode = "en-us"
 title = "Curriculum Vitae - Julien Klaer"
 theme = "hugo-devresume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
 
 [params]
     author = "Julien Klaer"
@@ -14,7 +13,7 @@ googleAnalytics = "UA-XXXXXXX-Y"
     [params.profile]
         enable = true
         name = "Julien Klaer"
-        tagline = "Senior Software Engineer"
+        tagline = "Senior Software Engineer - Cloud Architect"
         avatar = "avatar.png"
 
     [params.contact]
@@ -81,13 +80,15 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
+        name = "Certified Kubernetes Administrator"
+        body = "Cloud Native Computing Foundation"
         date = "2019"
+        url = "https://www.youracclaim.com/badges/d4555572-52f2-4767-9227-6dfb88006fce"
         [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
+        name = "Google Cloud Certified"
+        body = "Professional Cloud Architect"
+        date = "2018"
+        url = "https://www.credential.net/f2228374-66be-49d1-a5fb-63a3914f8adf?key=070697e1271dac232dc7b545e153a5ea49a921c302a9f06a1bab89dd47e61ab3"
 
     [params.languages]
         enable = true
