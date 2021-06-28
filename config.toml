@@ -68,13 +68,17 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.education.list]]
-        degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
+        degree = "Computer science degree"
+        university = "Université de Lorraine, Metz, France"
+        dates = "2014"
         [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        degree = "University technological diploma"
+        university = "Université de Lorraine, Metz, France"
+        dates = "2012"
+        [[params.education.list]]
+        degree = "Scientist Bachelor"
+        university = "Lycée Condorcet, Schoeneck, France"
+        dates = "2010"
 
     [params.awards]
         enable = true
