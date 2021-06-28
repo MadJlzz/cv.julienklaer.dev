@@ -37,32 +37,32 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.skills.list]]
-        title = "Technical"
+        title = "Technical skills"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "Java | Golang | Python"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "JavaScript | TypeScript"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "SpringBoot | Flask | Angular"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "SQL | NoSQL like Oracle/Firestore"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
+        details = "AMQP like PubSub/Apache Kafka"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
+        details = "GitHub Actions | Jenkins"
         [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
+        details = "Istio | Kubernetes | Docker/containerd"
+        [[params.skills.list.items]]
+        details = "Google Cloud Platform | SysAdmin 'general' skills"
 
         [[params.skills.list]]
-        title = "Professional"
+        title = "Soft skills"
         [[params.skills.list.items]]
         details = "Effective communication"
         [[params.skills.list.items]]
         details = "Team player"
         [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
+        details = "Entrepreneurship"
 
     [params.education]
         enable = true
