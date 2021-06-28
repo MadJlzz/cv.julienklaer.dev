@@ -191,7 +191,7 @@ theme = "hugo-devresume-theme"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
@@ -209,13 +209,13 @@ theme = "hugo-devresume-theme"
 
         [[params.social.list]]
         icon = "fab fa-github-square"
-        url = "//github.com/username"
-        title = "username"
+        url = "//github.com/MadJlzz"
+        title = "MadJlzz"
         [[params.social.list]]
         icon = "fab fa-linkedin"
-        url = "//linkedin.com/in/username"
-        title = "username"
+        url = "//linkedin.com/in/klaer-julien"
+        title = "Julien Klaer"
         [[params.social.list]]
         icon = "fab fa-twitter-square"
-        url = "//twitter.com/username"
-        title = "@username"
+        url = "//twitter.com/MadJlzz"
+        title = "@MadJlzz"
