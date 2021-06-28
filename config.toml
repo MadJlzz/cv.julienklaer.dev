@@ -111,13 +111,13 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.interests.list]]
-        name = "Climbing"
+        name = "Music 🎵 🎸"
         [[params.interests.list]]
-        name = "Snowboarding"
+        name = "Riding Motorcycle 🏍️"
         [[params.interests.list]]
-        name = "Photography"
+        name = "Video Games 🕹️"
         [[params.interests.list]]
-        name = "Travelling"
+        name = "Computer Science 🤓"
 
     [params.summary]
         enable = true
