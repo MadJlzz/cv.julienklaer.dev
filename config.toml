@@ -94,11 +94,14 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.languages.list]]
-        name = "English"
+        name = "French"
         level = "Native"
         [[params.languages.list]]
-        name = "Spanish"
+        name = "English"
         level = "Professional"
+        [[params.languages.list]]
+        name = "German"
+        level = "Proficient"
 
     [params.interests]
         enable = true
