@@ -14,7 +14,7 @@ theme = "hugo-devresume-theme"
         enable = true
         name = "Julien Klaer"
         tagline = "Senior Software Engineer - Cloud Architect"
-        avatar = "avatar.png"
+        avatar = "me.png"
 
     [params.contact]
         enable = true
