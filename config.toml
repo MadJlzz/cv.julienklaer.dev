@@ -228,6 +228,19 @@ theme = "hugo-devresume-theme"
         
         With Playoffs we were able to assess both people technical and soft skills.'''
 
+        [[params.experience.list]]
+        title = "Analyst Programmer"
+        dates = "September 2016 - February 2017"
+        company = "PwC Luxembourg"
+        details = "Working for the TMA team, I was assigned the task to restore Java application stability in production and modernize those applications."
+        [[params.experience.list.items]]
+        details = "Ensure the quality and the availability of many applications"
+        [[params.experience.list.items]]
+        details = "Set up new tools to facilitate maintenance"
+        [[params.experience.list.items]]
+        details = "Analysis of day-to-day problems and work to find solutions"
+        [[params.experience.list.items]]
+        details = "Modernize existing applications"
 
     [params.projects]
         enable = true
