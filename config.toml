@@ -260,7 +260,7 @@ theme = "hugo-devresume-theme"
 
 
     [params.projects]
-        enable = true
+        enable = false
 
         [[params.projects.list]]
         title = "Project Lorem Ipsum"
