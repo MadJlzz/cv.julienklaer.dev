@@ -121,7 +121,9 @@ theme = "hugo-devresume-theme"
 
     [params.summary]
         enable = true
-        text = "Summarise your career here. Donec quam felis, ultricies nec, pellentesque eu. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.  Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh."
+        text = '''I am a Senior Software Engineer that got caught in the wonderful world of Cloud Computing and DevOps philosophy. Always eager to learn new things, I like putting time in technology watch to find out what are the last trends! Lastly, I've put some effort on learning Python and Golang which I just fell in love with ❤️   
+        I love challenges and meet new people. I am conviced that everyone has a story and something to share! 🧑‍🤝‍🧑   
+        Last but not least, despite being sensitive to pressure, I am always doing my best to share my good vibes! 🌊'''
 
     [params.experience]
         enable = true
