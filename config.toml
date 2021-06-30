@@ -141,7 +141,7 @@ theme = "hugo-devresume-theme"
         [[params.experience.list]]
         title = "Consultant DevOps Engineer"
         dates = "March 2020 - September 2020"
-        company = "RBC Investor & Treasury Services"
+        company = "RBC Investor & Treasury Services for SFEIR"
         details = "Helping developers to deliver more business value by providing them tools, support and help migrating applications to modern technologies like OpenShift, Pivotal Cloud Foundry, [...] Also in charge of providing services to developers like CI/CD, workflow pipelines, server provisioning..."
 
         [[params.experience.list]]
@@ -159,7 +159,7 @@ theme = "hugo-devresume-theme"
         [[params.experience.list]]
         title = "Consultant DevOps Engineer - Java Developer"
         dates = "October 2018 - March 2020"
-        company = "ING Luxembourg"
+        company = "ING Luxembourg for SFEIR"
         details = "Aware of their change and run problems, ING has a big objective of developing their infrastructure and processes. To let teams be more autonomous and manage releases and incidents linked to their assets, ING entrusted me with the creation of an OPS unit and the deployment of the movement. This action is initiated by the Tribe Daily Banking & Lending Engine and extended to all the bank's services. Apart from that, I have been working for a huge migration project at ING Luxembourg that completely refactor the existing payment processing thanks to my Java seniority."
         [[params.experience.list.items]]
         details = "Set up a guild dedicated to the movement, to spread the DevOps culture within ING."
@@ -172,6 +172,62 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Huge migration of the SWIFT payment platform to the ING group payment platform that runs thousands of daily payments."
         
+        [[params.experience.list]]
+        title = "Consultant Fullstack Developer"
+        dates = "May 2017 - October 2018"
+        company = "Société Générale Bank and Trust for SFEIR"
+        details = "Migration of a legacy trading application made in Java QT Jambi for the frontend with Spring 3 backend applications. We have been migrating one financial product at a time from a monolithic perspective into microservices and micro frontends applications using Spring Boot 2 and Angular 6.I wrote a complete Groovy framework for our needs using Jenkinsfile for pipeline as code. We used XLDeploy from XebiaLabs to deploy applications in our environments. I have propagated the idea of using Docker by providing them a proof of concept of the technology. Also, I have developed a complete CI/CD pipeline for Angular application since no native solution for building and packaging components libraries were existing at this time."
+        [[params.experience.list.items]]
+        details = "Migration of a legacy trading application written in Java QT Jambi into a brand-new web application made with Spring Boot | Angular."
+        [[params.experience.list.items]]
+        details = "Guiding and building some continuous delivery system for both Java and JavaScript technology (compilation, test, release, publishing, deployment) using Groovy, Jenkins pipeline (infrastructure as code) and writing a shared library."
+        [[params.experience.list.items]]
+        details = "Advising transversal architecture team about how to use Docker and doing some POC with Spring Cloud integration."
+
+        [[params.experience.list]]
+        title = "Consultant Fullstack Developer"
+        dates = "February 2017 - May 2017"
+        company = "Legitech for SFEIR"
+        details = "Development of a document management platform used by jurists and lawyers to aggregate laws to make them more readable and user friendly. I was assigned the task of developing the desktop publishing application to print consolidated rules as books."
+        [[params.experience.list.items]]
+        details = "Development of a DTP (desktop publishing) application in order to manipulate legal text. (consolidation, reference, reordering, ...)"
+        [[params.experience.list.items]]
+        details = "Extraction of this consolidated data and transformation into a specific format intended to be released by a printer-publisher."
+        
+        [[params.experience.list]]
+        title = "Team Leader - Consultant Software Enginneer - Trainer"
+        dates = "February 2017 - September 2020"
+        company = "SFEIR"
+        details = "I joined SFEIR as an fullstack IT engineer specialized in backend, DevOps and Cloud Computing. Shortly after joining I became quickly important by being granted responsibilities of coaching collegues that were spreaded across different clients. Also, I was responsible of training people on subjects like Docker or Kubernetes. Among all of this, I played my role as a recruiter and gave several talk on trending subjects (IoT, Golang, ...)"
+        [[params.experience.list.items]]
+        details = '''As a Team Leader I was:
+
+        coaching and managing a team of 10 people
+
+        following the career of each of my collegues and their mission
+
+        meeting clients to measure their happiness regarding what we delivered to them
+
+        planning an end of year interview with collegues discussing career and salary package
+        '''
+        [[params.experience.list.items]]
+        details = '''As a Trainer I was:
+        
+        creating new support (slides, exercices) like the Docker and Kubernetes one
+        
+        giving basic and advanced training courses / talk for internal people and for clients
+        like the Deputy Chamber in Luxembourg or even the CSSF
+        
+        giving complete training sessions espectially made for clients like Alten in Switzerland'''
+        [[params.experience.list.items]]
+        details = '''As a Recruiter I was:
+        
+        Helping Talent Managers recriot new people for our company in coding sessions
+        that we called PlayOff. Playoffs are composed of three practial tests (live coding)
+        that touches algorithms, languages and platforms (frameworks)
+        
+        With Playoffs we were able to assess both people technical and soft skills.'''
+
 
     [params.projects]
         enable = true
