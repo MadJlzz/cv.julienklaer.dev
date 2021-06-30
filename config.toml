@@ -12,7 +12,7 @@ theme = "hugo-devresume-theme"
 
     [params.profile]
         enable = true
-        name = "Julien Klaer"
+        name = "Julien Klaer ☁️"
         tagline = "Senior Software Engineer - Cloud Architect"
         avatar = "me.png"
 
@@ -129,16 +129,26 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
-        title = "Lead Software Engineer - Cloud ☁️ Architect"
+        title = "Lead Software Engineer - Cloud Architect"
         dates = "September 2020 - Present"
         company = "Next Gate Tech"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
+        details = "Next Gate Tech is a FinTech that provides innovative SaaS solutions for the asset management industry. We are providing value to our client by managing end-to-end their data and by giving them insights, alerts, [...] by running some quantitative computations. I worked there first as a Google Cloud Architect and earned further responsibilites as Lead of the Software Engineer team. As such, I was commited to many projects of the company which are mostly written using Python:"
         [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
+        details = "ensure scalability and fault tolerance across all of our systems"
         [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
+        details = "put in place components to orchestrate, run and monitor data pipelines that are scalable, cost effective and reliable"
         [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        details = "work and implement solutions to reach a cloud agnostic system by using mostly OpenSource softwares"
+        [[params.experience.list.items]]
+        details = "promote a DevOps philosophy by putting in place tools like Infrastructure as Code (Terraform) or CI/CD (GitHub Actions)"
+        [[params.experience.list.items]]
+        details = "ensure secure systems and review security policies written by the Cybersecurity Engineer"
+        [[params.experience.list.items]]
+        details = "provide production grade tools for managing employee's accounts, mailboxes, security policies (like passwords size, 2FA) or even DNS"
+        [[params.experience.list.items]]
+        details = "manage all software engineers of the company"
+        [[params.experience.list.items]]
+        details = "and probably a lot more that I forgot 😶‍🌫️"
 
         [[params.experience.list]]
         title = "Consultant DevOps Engineer"
