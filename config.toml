@@ -242,6 +242,23 @@ theme = "hugo-devresume-theme"
         [[params.experience.list.items]]
         details = "Modernize existing applications"
 
+        [[params.experience.list]]
+        title = "System Administrator"
+        dates = "July 2014 - September 2016"
+        company = "efluid SAS"
+        details = "Junior system administrator/integrator inside the process of fabrication team led by Thomas Collignon. In charge of design, development and testing in the field of automation applications in manufacturing processes. Implementation of recurrent tasks process (automatic compilations, nightly builds, continuous integration, packaging, deployment)."
+        [[params.experience.list.items]]
+        details = "Responsible of the release management of applications"
+        [[params.experience.list.items]]
+        details = "Ensuring that the continuous integrations and health of the applications are stable"
+        [[params.experience.list.items]]
+        details = "Supervise deployed applications in development, test, and QA environments"
+        [[params.experience.list.items]]
+        details = "Participating to the improvement of our tools to implement our DevOps strategy (Docker, Jenkins pipeline, Groovy)"
+        [[params.experience.list.items]]
+        details = "training people for Git SCM"
+
+
     [params.projects]
         enable = true
 
