@@ -132,23 +132,46 @@ theme = "hugo-devresume-theme"
         title = "Lead Software Engineer - Cloud Architect"
         dates = "September 2020 - Present"
         company = "Next Gate Tech"
-        details = "Next Gate Tech is a FinTech that provides innovative SaaS solutions for the asset management industry. We are providing value to our client by managing end-to-end their data and by giving them insights, alerts, [...] by running some quantitative computations. I worked there first as a Google Cloud Architect and earned further responsibilites as Lead of the Software Engineer team. As such, I was commited to many projects of the company which are mostly written using Python:"
+        details = "Next Gate Tech is a FinTech that provides innovative SaaS solutions for the asset management industry. As a Cloud based company, I worked there first as a Google Cloud Architect and earned further responsibilites as Lead of the Software Engineer team. As such, I was commited to numerous projects which are mostly written using Python."
+        
         [[params.experience.list.items]]
-        details = "ensure scalability and fault tolerance across all of our systems"
+        details = """maintainance and putting in place best practices around consumption of the Google Cloud Platform.
+        (**Cloud Functions**, **Cloud Run**, **AppEngine**, **Compute Engine**, **Cloud Storage**, **Pub/Sub**, **BigQuery**, **Firestore**, **Cloud Operation**)"""
+        
         [[params.experience.list.items]]
-        details = "put in place components to orchestrate, run and monitor data pipelines that are scalable, cost effective and reliable"
+        details = "responsible of managing the costs around the Google Cloud Platform (alerts, reports)"
+        
         [[params.experience.list.items]]
-        details = "work and implement solutions to reach a cloud agnostic system by using mostly OpenSource softwares"
+        details = "entire migration of the company information system to a more central place: Google Workspace"
+       
         [[params.experience.list.items]]
-        details = "promote a DevOps philosophy by putting in place tools like Infrastructure as Code (Terraform) or CI/CD (GitHub Actions)"
+        details = """responsible of managing the company information system to assure best security practices (password length, 2FA),
+         applications (drive, doc, ...) and entities (user, groups)"""
+
         [[params.experience.list.items]]
-        details = "ensure secure systems and review security policies written by the Cybersecurity Engineer"
+        details = "administrator of the domain, managing DNS rules (e.g. SPF, DKIM, DMARC)"
+
         [[params.experience.list.items]]
-        details = "provide production grade tools for managing employee's accounts, mailboxes, security policies (like passwords size, 2FA) or even DNS"
+        details = "development and maintainance of Next Gate Tech first solution in Python 3.7 🐍 (scalable, cost efficient and reliable data pipelines)"
+
+        [[params.experience.list.items]]
+        details = "development of a new version of Next Gate Tech solution that is cloud independant (project NGX) in Python 3.9 🐍"
+
+        [[params.experience.list.items]]
+        details = "project management on part of the NGX project following the agile methodology"
+
+        [[params.experience.list.items]]
+        details = "promoting a DevOps philosophy by putting in place tools like Infrastructure as Code (Terraform) or CI/CD (GitHub Actions)"
+
+        [[params.experience.list.items]]
+        details = "reviewing security policies written by the Cybersecurity Engineer and writting procedure and documentation around systems availability (BCP, DRP, ...)"
+
+        [[params.experience.list.items]]
+        details = "ensuring healthy systems to meet business satisfaction"
+
         [[params.experience.list.items]]
         details = "manage all software engineers of the company"
-        [[params.experience.list.items]]
-        details = "and probably a lot more that I forgot 😶‍🌫️"
+
 
         [[params.experience.list]]
         title = "Consultant DevOps Engineer"
