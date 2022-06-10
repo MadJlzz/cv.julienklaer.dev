@@ -135,42 +135,45 @@ theme = "hugo-devresume-theme"
         details = "Next Gate Tech is a FinTech that provides innovative SaaS solutions for the asset management industry. As a Cloud based company, I worked there first as a Google Cloud Architect and earned further responsibilites as Lead of the Software Engineer team. As such, I was commited to numerous projects which are mostly written using Python."
         
         [[params.experience.list.items]]
-        details = """maintainance and putting in place best practices around consumption of the Google Cloud Platform.
-        (**Cloud Functions**, **Cloud Run**, **AppEngine**, **Compute Engine**, **Cloud Storage**, **Pub/Sub**, **BigQuery**, **Firestore**, **Cloud Operation**)"""
+        details = """maintainance and putting in place **best practices** around consumption of the **Google Cloud Platform**.
+        (Cloud Functions, Cloud Run, AppEngine, Compute Engine, Cloud Storage, Pub/Sub, BigQuery, Firestore/Datastore, Cloud Operation)"""
         
         [[params.experience.list.items]]
-        details = "responsible of managing the costs around the Google Cloud Platform (alerts, reports)"
+        details = "responsible of managing the **costs** around the **Google Cloud Platform** (alerts, reports)"
         
         [[params.experience.list.items]]
-        details = "entire migration of the company information system to a more central place: Google Workspace"
+        details = "entire **migration** of the company information system to a more central place: **Google Workspace**"
        
         [[params.experience.list.items]]
-        details = """responsible of managing the company information system to assure best security practices (password length, 2FA),
+        details = """responsible of managing the company information system to assure **best security practices** (password length, 2FA),
          applications (drive, doc, ...) and entities (user, groups)"""
 
         [[params.experience.list.items]]
-        details = "administrator of the domain, managing DNS rules (e.g. SPF, DKIM, DMARC)"
+        details = "**administrator of the domain**, managing DNS rules (e.g. SPF, DKIM, DMARC)"
 
         [[params.experience.list.items]]
-        details = "development and maintainance of Next Gate Tech first solution in Python 3.7 🐍 (scalable, cost efficient and reliable data pipelines)"
+        details = "**development and maintainance** of Next Gate Tech first solution in Python 3.7 🐍 (scalable, cost efficient and reliable data pipelines)"
 
         [[params.experience.list.items]]
-        details = "development of a new version of Next Gate Tech solution that is cloud independant (project NGX) in Python 3.9 🐍"
+        details = "development of a new version of Next Gate Tech solution that is **cloud independant** (project NGX) in Python 3.9 🐍"
 
         [[params.experience.list.items]]
-        details = "project management on part of the NGX project following the agile methodology"
+        details = "responsible of deploying the new NGX stack to a **new Cloud provider (IBM Cloud)** for one of the client's needs"
 
         [[params.experience.list.items]]
-        details = "promoting a DevOps philosophy by putting in place tools like Infrastructure as Code (Terraform) or CI/CD (GitHub Actions)"
+        details = "**project management** on part of the NGX project following the agile methodology"
 
         [[params.experience.list.items]]
-        details = "reviewing security policies written by the Cybersecurity Engineer and writting procedure and documentation around systems availability (BCP, DRP, ...)"
+        details = "promoting a **DevOps philosophy** by putting in place tools like **Infrastructure as Code** (Terraform) or **CI/CD** (GitHub Actions/Cloud Build)"
+
+        [[params.experience.list.items]]
+        details = "reviewing security policies written by the **Cybersecurity Engineer** and writting procedure and documentation around systems availability using SRE (BCP, DRP, ...)"
 
         [[params.experience.list.items]]
         details = "ensuring healthy systems to meet business satisfaction"
 
         [[params.experience.list.items]]
-        details = "manage all software engineers of the company"
+        details = "**manage** all software engineers of the company"
 
 
         [[params.experience.list]]
