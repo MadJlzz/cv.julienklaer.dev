@@ -235,7 +235,7 @@ theme = "hugo-devresume-theme"
         details = "Extraction of this consolidated data and transformation into a specific format intended to be released by a printer-publisher."
         
         [[params.experience.list]]
-        title = "Team Leader - Consultant Software Enginneer - Trainer"
+        title = "Team Leader - Consultant Software Engineer - Trainer"
         dates = "February 2017 - September 2020"
         company = "SFEIR"
         details = "I joined SFEIR as an fullstack IT engineer specialized in backend, DevOps and Cloud Computing. Shortly after joining I became quickly important by being granted responsibilities of coaching collegues that were spreaded across different clients. Also, I was responsible of training people on subjects like Docker or Kubernetes. Among all of this, I played my role as a recruiter and gave several talk on trending subjects (IoT, Golang, ...)"
