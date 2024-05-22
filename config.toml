@@ -34,7 +34,7 @@ theme = "hugo-devresume-theme"
         text = "julienklaer.dev"
 
     [params.skills]
-        enable = true
+        enable = false
 
         [[params.skills.list]]
         title = "Technical skills"
@@ -88,6 +88,11 @@ theme = "hugo-devresume-theme"
         [[params.awards.list]]
         name = "Certified Kubernetes Administrator"
         body = "Cloud Native Computing Foundation"
+        date = "2023"
+        url = ""
+        [[params.awards.list]]
+        name = "Certified Kubernetes Administrator"
+        body = "Cloud Native Computing Foundation"
         date = "2019"
         url = "https://www.youracclaim.com/badges/d4555572-52f2-4767-9227-6dfb88006fce"
         [[params.awards.list]]
@@ -131,8 +136,49 @@ theme = "hugo-devresume-theme"
         enable = true
 
         [[params.experience.list]]
-        title = "Lead Software Engineer - Cloud Architect"
-        dates = "September 2020 - Present"
+        title = "Site Reliability Engineer"
+        dates = "August 2022 - Present"
+        company = "Tadaweb"
+        details = "Tadaweb is an build an OSINT platform which purpose is to make the world safer by empowering the human mind with the right information at the right time."
+
+        [[params.experience.list.items]]
+        details = "build and enhance existing core infrastructure of the platform (such as VPCs, databases Postgres - Mongo - Redis, image registries, [...]) with Terraform for GCP/Azure/AWS"
+
+        [[params.experience.list.items]]
+        details = """deployment and management of ~15 Kubernetes clusters on a daily basis. Clusters are both provisionned using Cluster API (for self managed clusters) or
+        directly through Terraform for managed clusters like GKE"""
+
+        [[params.experience.list.items]]
+        details = "working with custom images (build with Packer) for nodes to ensure immutable infrastructure and hardened security/compliance restrictions"
+
+        [[params.experience.list.items]]
+        details = """gather observability data like metrics, traces and logs to collect SLIs and write meaningfull SLO 
+        using tools like Fluentbit, Fluentd, Loki, Elasticsearch. Kibana, Prometheus, Grafana, Tempo/Jaeger, Thanos"""
+        
+        [[params.experience.list.items]]
+        details = """deploy smart alerts on gathered metrics to act fast whenever a component is detected faulty and
+        document with post mortems what happened, how we solved the issue and what to do next to not repeat the same errors"""
+
+        [[params.experience.list.items]]
+        details = "use Ansible to configure specific VMs not linked directly to the main platform"
+
+        [[params.experience.list.items]]
+        details = "implementing continuous deployment using GitOps model with ArgoCD"
+
+        [[params.experience.list.items]]
+        details = """building a library of GitLab CI templates shared amongst the dev teams to boost productivity and
+        standardize image building (Kaniko, Buildah), image scanning (Trivy, Grype), image signing (Cosign) and binary authorization (Kyverno)"""
+
+        [[params.experience.list.items]]
+        details = """development of multiple tools in Golang to solve some of our platform challenges such as a Terraform
+        provider, some CLIs, services that interface directly with the Kubernetes API"""
+
+        [[params.experience.list.items]]
+        details = "development of 'glueing' tools made in Python to link multiple steps of a process (e.g. Terraform with Ansible)"
+
+        [[params.experience.list]]
+        title = "Head of Software Engineers"
+        dates = "September 2020 - August 2022"
         company = "Next Gate Tech"
         details = "Next Gate Tech is a FinTech that provides innovative SaaS solutions for the asset management industry. As a Cloud based company, I worked there first as a Google Cloud Architect and earned further responsibilites as Lead of the Software Engineer team. As such, I was commited to numerous projects which are mostly written using Python."
         
@@ -342,7 +388,3 @@ theme = "hugo-devresume-theme"
         icon = "fab fa-linkedin"
         url = "//linkedin.com/in/klaer-julien"
         title = "Julien Klaer"
-        [[params.social.list]]
-        icon = "fab fa-twitter-square"
-        url = "//twitter.com/MadJlzz"
-        title = "@MadJlzz"
