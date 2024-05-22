@@ -130,7 +130,7 @@ theme = "hugo-devresume-theme"
         enable = true
         text = '''I am a Senior Software Engineer that got caught in the wonderful world of Cloud Computing and DevOps philosophy. Always eager to learn new things, I like putting time in technology watch to find out what are the last trends! Lastly, I've put some effort on learning Python and Golang which I just fell in love with ❤️   
         I love challenges and meet new people. I am conviced that everyone has a story and something to share! 🧑‍🤝‍🧑   
-        I am always doing my best to share my good vibes! 🌊'''
+        Last but not least, I am always doing my best to share my good vibes! 🌊'''
 
     [params.experience]
         enable = true
