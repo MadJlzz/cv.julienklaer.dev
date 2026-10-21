@@ -1,31 +1,25 @@
-name: Build static pages
+name: Deploy redirect
 
-on: push
+# cv.julienklaer.dev now lives at https://www.julienklaer.dev/cv/.
+# This repo only serves a page that forwards visitors there.
+
+on:
+  push:
+    branches: [sources]
+  workflow_dispatch:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
-      - uses: actions/checkout@v2
-        with:
-          submodules: true
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2.4.13
-        with:
-          hugo-version: "0.115.0"
-          extended: true
-
-      - name: Build
-        run: |
-          hugo --gc --minify
-          cp CNAME public/
-          touch public/.nojekyll
+      - uses: actions/checkout@v4
 
       - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3.7.3
-        if: github.ref == 'refs/heads/sources'
+        uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_branch: main
-          publish_dir: ./public
+          publish_dir: ./site
+          force_orphan: true
